@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+
+    android:background="@drawable/signup">
+
+    <!-- Sign Up Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"
+        android:gravity="center" />
+
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:inputType="text" />
+
+    <!-- Email ID Input -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email ID"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress" />
+
+    <!-- Game ID Input -->
+    <EditText
+        android:id="@+id/etGameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Game ID"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:inputType="text" />
+
+    <!-- Phone Number Input -->
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:inputType="phone" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="18sp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:padding="10dp" />
+</LinearLayout>
